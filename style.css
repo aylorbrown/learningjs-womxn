@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Syne";
+    src: url(assets/syne-regular.woff2), url(assets/syne-regular.woff);
+}
+
+@font-face {
+    font-family: "Syne Extra";
+    src: url(assets/syne-extra.woff2), url(assets/syne-extra.woff);
+}
+
+body {
+    font-family: "Syne", Arial;
+    font-size: 32px;
+    line-height: 1.25;
+
+    background-color: #f4e6d8;
+    color: #15403d;
+    margin: 40px auto 40px auto;
+    max-width: 1120px;
+}
+
+p {
+    font-family: "Syne Extra";
+    color: #e5745d;
+}
