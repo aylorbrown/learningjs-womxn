@@ -1,3 +1,8 @@
+@keyframes spin {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
 @font-face {
     font-family: "Syne";
     src: url(assets/syne-regular.woff2), url(assets/syne-regular.woff);
@@ -75,7 +80,7 @@ div.stamps {
 
 div.stamps img {
     position: absolute;
-    transform: translate(-50%, -50%);
+    animation: spin 30s linear infinite;
 }
 
 
