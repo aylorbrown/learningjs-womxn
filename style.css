@@ -73,5 +73,10 @@ div.stamps {
     width: 100%;
 }
 
+div.stamps img {
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
 
 
